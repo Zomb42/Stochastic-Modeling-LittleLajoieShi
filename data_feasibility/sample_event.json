@@ -1,0 +1,130 @@
+{
+  "event": {
+    "category": "Sports",
+    "collateral_return_type": "MECNET",
+    "event_ticker": "KXNFLGAME-26OCT29CARGB",
+    "exchange_index": 0,
+    "last_updated_ts": "0001-01-01T00:00:00Z",
+    "mutually_exclusive": true,
+    "product_metadata": {
+      "competition": "Pro Football",
+      "competition_scope": "Game"
+    },
+    "series_ticker": "KXNFLGAME",
+    "settlement_sources": [
+      {
+        "name": "the Governing League",
+        "url": "https://www.nfl.com/"
+      }
+    ],
+    "strike_period": "",
+    "sub_title": "CAR vs GB (Oct 29)",
+    "title": "Carolina vs Green Bay"
+  },
+  "markets": [
+    {
+      "can_close_early": true,
+      "close_time": "2026-11-01T00:15:00Z",
+      "created_time": "2026-10-20T04:01:42.749215Z",
+      "custom_strike": {
+        "football_team": "08c52d1f-7ce1-445f-be72-97de0554ecc8"
+      },
+      "early_close_condition": "This market will close and expire after a winner is declared.",
+      "event_ticker": "KXNFLGAME-26OCT29CARGB",
+      "exchange_index": 0,
+      "expected_expiration_time": "2026-10-30T03:15:00Z",
+      "expiration_time": "2026-11-01T00:15:00Z",
+      "expiration_value": "",
+      "last_price_dollars": "0.6500",
+      "latest_expiration_time": "2026-11-01T00:15:00Z",
+      "market_type": "binary",
+      "no_ask_dollars": "0.3600",
+      "no_bid_dollars": "0.3500",
+      "no_sub_title": "Green Bay",
+      "notional_value_dollars": "1.0000",
+      "occurrence_datetime": "2026-10-30T03:15:00Z",
+      "open_interest_fp": "170951.31",
+      "open_time": "2026-10-20T04:06:00Z",
+      "previous_price_dollars": "0.6500",
+      "previous_yes_ask_dollars": "0.6500",
+      "previous_yes_bid_dollars": "0.6400",
+      "price_level_structure": "linear_cent",
+      "price_ranges": [
+        {
+          "end": "1.0000",
+          "start": "0.0000",
+          "step": "0.0100"
+        }
+      ],
+      "result": "",
+      "rules_primary": "If Green Bay wins the Carolina vs Green Bay Pro Football game originally scheduled for Oct 29, 2026, then the market resolves to Yes.",
+      "rules_secondary": "The following market refers to the team who wins the Carolina vs Green Bay Pro Football game originally scheduled for Oct 29, 2026. If the game ends in a tie, the market will resolve to $0.50 for each team. If the game is postponed but begins within 48 hours from its originally scheduled start time, the market will remain open and resolve based on the official final result. If the game is not started within 48 hours, the market will resolve to a fair price.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Governing League. All trademarks, logos, and brand names are the property of their respective owners.",
+      "settlement_bounds_type": "default",
+      "settlement_timer_seconds": 60,
+      "status": "active",
+      "strike_type": "structured",
+      "ticker": "KXNFLGAME-26OCT29CARGB-GB",
+      "title": "Green Bay wins",
+      "updated_time": "2026-10-20T04:06:00.5311Z",
+      "volume_24h_fp": "148679.40",
+      "volume_fp": "188359.33",
+      "yes_ask_dollars": "0.6500",
+      "yes_ask_size_fp": "4234179.09",
+      "yes_bid_dollars": "0.6400",
+      "yes_bid_size_fp": "39162.64",
+      "yes_sub_title": "Green Bay"
+    },
+    {
+      "can_close_early": true,
+      "close_time": "2026-11-01T00:15:00Z",
+      "created_time": "2026-10-20T04:01:42.749215Z",
+      "custom_strike": {
+        "football_team": "e37050ce-354f-4dd0-b2d8-0bd1e9650eb7"
+      },
+      "early_close_condition": "This market will close and expire after a winner is declared.",
+      "event_ticker": "KXNFLGAME-26OCT29CARGB",
+      "exchange_index": 0,
+      "expected_expiration_time": "2026-10-30T03:15:00Z",
+      "expiration_time": "2026-11-01T00:15:00Z",
+      "expiration_value": "",
+      "last_price_dollars": "0.3500",
+      "latest_expiration_time": "2026-11-01T00:15:00Z",
+      "market_type": "binary",
+      "no_ask_dollars": "0.6500",
+      "no_bid_dollars": "0.6400",
+      "no_sub_title": "Carolina",
+      "notional_value_dollars": "1.0000",
+      "occurrence_datetime": "2026-10-30T03:15:00Z",
+      "open_interest_fp": "90085.37",
+      "open_time": "2026-10-20T04:06:00Z",
+      "previous_price_dollars": "0.3500",
+      "previous_yes_ask_dollars": "0.3500",
+      "previous_yes_bid_dollars": "0.3400",
+      "price_level_structure": "linear_cent",
+      "price_ranges": [
+        {
+          "end": "1.0000",
+          "start": "0.0000",
+          "step": "0.0100"
+        }
+      ],
+      "result": "",
+      "rules_primary": "If Carolina wins the Carolina vs Green Bay Pro Football game originally scheduled for Oct 29, 2026, then the market resolves to Yes.",
+      "rules_secondary": "The following market refers to the team who wins the Carolina vs Green Bay Pro Football game originally scheduled for Oct 29, 2026. If the game ends in a tie, the market will resolve to $0.50 for each team. If the game is postponed but begins within 48 hours from its originally scheduled start time, the market will remain open and resolve based on the official final result. If the game is not started within 48 hours, the market will resolve to a fair price.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Governing League. All trademarks, logos, and brand names are the property of their respective owners.",
+      "settlement_bounds_type": "default",
+      "settlement_timer_seconds": 60,
+      "status": "active",
+      "strike_type": "structured",
+      "ticker": "KXNFLGAME-26OCT29CARGB-CAR",
+      "title": "Carolina wins",
+      "updated_time": "2026-10-20T04:06:00.5311Z",
+      "volume_24h_fp": "73092.17",
+      "volume_fp": "103635.74",
+      "yes_ask_dollars": "0.3600",
+      "yes_ask_size_fp": "3288662.32",
+      "yes_bid_dollars": "0.3500",
+      "yes_bid_size_fp": "100722.29",
+      "yes_sub_title": "Carolina"
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "checked_at_utc": "2026-10-27T20:45:41.652020+00:00",
+  "catalogs": {
+    "KXNFLGAME": {
+      "live_contracts": 278,
+      "historical_contracts": 732,
+      "overlapping_contracts": 32,
+      "unique_contracts": 978,
+      "unique_events": 489,
+      "events_by_calendar_year": {
+        "2026": 184,
+        "2025": 305
+      },
+      "earliest_event_date": "2025-07-31",
+      "latest_event_date": "2026-10-26",
+      "earliest_market_open": "2025-05-20T14:00:00Z"
+    },
+    "NFLGAME": {
+      "live_contracts": 0,
+      "historical_contracts": 0,
+      "overlapping_contracts": 0,
+      "unique_contracts": 0,
+      "unique_events": 0,
+      "events_by_calendar_year": {},
+      "earliest_event_date": null,
+      "latest_event_date": null,
+      "earliest_market_open": null
+    },
+    "KXMLBGAME": {
+      "live_contracts": 1104,
+      "historical_contracts": 8462,
+      "overlapping_contracts": 180,
+      "unique_contracts": 9386,
+      "unique_events": 4693,
+      "events_by_calendar_year": {
+        "2026": 2479,
+        "2025": 2214
+      },
+      "earliest_event_date": "2025-04-16",
+      "latest_event_date": "2026-10-26",
+      "earliest_market_open": "2025-04-16T15:00:00Z"
+    },
+    "MLBGAME": {
+      "live_contracts": 0,
+      "historical_contracts": 0,
+      "overlapping_contracts": 0,
+      "unique_contracts": 0,
+      "unique_events": 0,
+      "events_by_calendar_year": {},
+      "earliest_event_date": null,
+      "latest_event_date": null,
+      "earliest_market_open": null
+    }
+  },
+  "earliest_price_samples": [
+    {
+      "label": "nfl_oldest_game",
+      "ticker": "KXNFLGAME-25JUL31LACDET-LAC",
+      "rows": 245,
+      "first_end_utc": "2025-07-31T23:00:00+00:00",
+      "last_end_utc": "2025-08-01T03:55:00+00:00",
+      "gaps_over_60_seconds": 26,
+      "rows_with_quotes": 245,
+      "median_spread": 0.010000000000000009,
+      "min_spread": 0.009999999999999898,
+      "max_spread": 1.0,
+      "trade_rows": 911,
+      "trades_incomplete": false
+    },
+    {
+      "label": "nfl_earliest_pregame",
+      "ticker": "KXNFLGAME-25SEP08MINCHI-MIN",
+      "rows": 68,
+      "first_end_utc": "2025-05-20T14:01:00+00:00",
+      "last_end_utc": "2025-05-21T14:52:00+00:00",
+      "gaps_over_60_seconds": 65,
+      "rows_with_quotes": 68,
+      "median_spread": 0.020000000000000018,
+      "min_spread": 0.020000000000000018,
+      "max_spread": 0.53,
+      "trade_rows": 0,
+      "trades_incomplete": false
+    },
+    {
+      "label": "mlb_oldest_game",
+      "ticker": "KXMLBGAME-25APR16ATLTOR-ATL",
+      "rows": 132,
+      "first_end_utc": "2025-04-16T15:01:00+00:00",
+      "last_end_utc": "2025-04-16T20:05:00+00:00",
+      "gaps_over_60_seconds": 50,
+      "rows_with_quotes": 132,
+      "median_spread": 0.040000000000000036,
+      "min_spread": 0.01,
+      "max_spread": 0.6399999999999999,
+      "trade_rows": 65,
+      "trades_incomplete": false
+    }
+  ],
+  "mlb_schedule_overlap": {
+    "events_with_one_final_date_team_candidate": 4571,
+    "unique_mlb_game_ids_among_those_candidates": 4564,
+    "candidate_events_by_year": {
+      "2026": 2414,
+      "2025": 2157
+    },
+    "ambiguous_doubleheader_events": 62,
+    "unmatched_events": 60,
+    "scalar_settlement_events": 11,
+    "binary_outcome_consistent_events": 4569,
+    "binary_outcome_consistent_unique_games": 4562,
+    "binary_outcome_consistent_unique_games_by_year": {
+      "2026": 2413,
+      "2025": 2149
+    },
+    "oldest_sample_wp_rows": 68,
+    "oldest_sample_wp_rows_with_baseline": 68
+  },
+  "mlb_price_samples": [
+    {
+      "date": "2025-04-16",
+      "event_ticker": "KXMLBGAME-25APR16ATLTOR",
+      "ticker": "KXMLBGAME-25APR16ATLTOR-ATL",
+      "gamePk": 778297,
+      "game_type": "R",
+      "selection": "earliest game",
+      "first_pitch_utc": "2025-04-16T17:08:27.463000+00:00",
+      "last_pitch_utc": "2025-04-16T19:51:18.045000+00:00",
+      "plate_appearances": 68,
+      "plate_appearances_with_start": 68,
+      "pitch_events": 316,
+      "pitch_events_with_start": 316,
+      "expected_minute_endpoints": 163,
+      "minute_coverage_fraction": 0.656441717791411,
+      "in_game_candles": {
+        "rows": 107,
+        "first_end_utc": "2025-04-16T17:09:00+00:00",
+        "last_end_utc": "2025-04-16T19:43:00+00:00",
+        "gaps_over_60_seconds": 30,
+        "rows_with_quotes": 107,
+        "median_spread": 0.04999999999999993,
+        "min_spread": 0.010000000000000009,
+        "max_spread": 0.6399999999999999
+      }
+    },
+    {
+      "date": "2025-06-15",
+      "event_ticker": "KXMLBGAME-25JUN15ATHKC",
+      "ticker": "KXMLBGAME-25JUN15ATHKC-ATH",
+      "gamePk": 777496,
+      "game_type": "R",
+      "selection": "median combined market volume on date",
+      "first_pitch_utc": "2025-06-15T18:13:54.436000+00:00",
+      "last_pitch_utc": "2025-06-15T21:02:16.053000+00:00",
+      "plate_appearances": 73,
+      "plate_appearances_with_start": 73,
+      "pitch_events": 308,
+      "pitch_events_with_start": 308,
+      "expected_minute_endpoints": 169,
+      "minute_coverage_fraction": 1.0,
+      "in_game_candles": {
+        "rows": 169,
+        "first_end_utc": "2025-06-15T18:14:00+00:00",
+        "last_end_utc": "2025-06-15T21:02:00+00:00",
+        "gaps_over_60_seconds": 0,
+        "rows_with_quotes": 169,
+        "median_spread": 0.010000000000000009,
+        "min_spread": 0.009999999999999953,
+        "max_spread": 0.33999999999999997
+      }
+    },
+    {
+      "date": "2025-09-15",
+      "event_ticker": "KXMLBGAME-25SEP15SFAZ",
+      "ticker": "KXMLBGAME-25SEP15SFAZ-AZ",
+      "gamePk": 776309,
+      "game_type": "R",
+      "selection": "median combined market volume on date",
+      "first_pitch_utc": "2025-09-16T01:41:30.432000+00:00",
+      "last_pitch_utc": "2025-09-16T04:08:28.238000+00:00",
+      "plate_appearances": 69,
+      "plate_appearances_with_start": 69,
+      "pitch_events": 299,
+      "pitch_events_with_start": 299,
+      "expected_minute_endpoints": 147,
+      "minute_coverage_fraction": 1.0,
+      "in_game_candles": {
+        "rows": 147,
+        "first_end_utc": "2025-09-16T01:42:00+00:00",
+        "last_end_utc": "2025-09-16T04:08:00+00:00",
+        "gaps_over_60_seconds": 0,
+        "rows_with_quotes": 147,
+        "median_spread": 0.010000000000000009,
+        "min_spread": 0.009999999999999898,
+        "max_spread": 0.37
+      }
+    },
+    {
+      "date": "2026-04-15",
+      "event_ticker": "KXMLBGAME-26APR151840SFCIN",
+      "ticker": "KXMLBGAME-26APR151840SFCIN-CIN",
+      "gamePk": 824532,
+      "game_type": "R",
+      "selection": "median combined market volume on date",
+      "first_pitch_utc": "2026-04-15T22:41:59.691000+00:00",
+      "last_pitch_utc": "2026-04-16T01:05:34.586000+00:00",
+      "plate_appearances": 75,
+      "plate_appearances_with_start": 75,
+      "pitch_events": 279,
+      "pitch_events_with_start": 279,
+      "expected_minute_endpoints": 144,
+      "minute_coverage_fraction": 1.0,
+      "in_game_candles": {
+        "rows": 144,
+        "first_end_utc": "2026-04-15T22:42:00+00:00",
+        "last_end_utc": "2026-04-16T01:05:00+00:00",
+        "gaps_over_60_seconds": 0,
+        "rows_with_quotes": 144,
+        "median_spread": 0.010000000000000009,
+        "min_spread": 0.009999999999999898,
+        "max_spread": 0.040000000000000036
+      }
+    },
+    {
+      "date": "2026-09-15",
+      "event_ticker": "KXMLBGAME-26SEP152040SDCOL",
+      "ticker": "KXMLBGAME-26SEP152040SDCOL-COL",
+      "gamePk": 824307,
+      "game_type": "R",
+      "selection": "median combined market volume on date",
+      "first_pitch_utc": "2026-09-16T00:40:00.739000+00:00",
+      "last_pitch_utc": "2026-09-16T03:11:50.378000+00:00",
+      "plate_appearances": 80,
+      "plate_appearances_with_start": 80,
+      "pitch_events": 271,
+      "pitch_events_with_start": 271,
+      "expected_minute_endpoints": 151,
+      "minute_coverage_fraction": 1.0,
+      "in_game_candles": {
+        "rows": 151,
+        "first_end_utc": "2026-09-16T00:41:00+00:00",
+        "last_end_utc": "2026-09-16T03:11:00+00:00",
+        "gaps_over_60_seconds": 0,
+        "rows_with_quotes": 151,
+        "median_spread": 0.010000000000000009,
+        "min_spread": 0.009999999999999898,
+        "max_spread": 0.03999999999999998
+      }
+    },
+    {
+      "date": "2026-10-26",
+      "event_ticker": "KXMLBGAME-26OCT262000MILTB",
+      "ticker": "KXMLBGAME-26OCT262000MILTB-MIL",
+      "gamePk": 849804,
+      "game_type": "W",
+      "selection": "median combined market volume on date",
+      "first_pitch_utc": "2026-10-27T00:10:23.069000+00:00",
+      "last_pitch_utc": "2026-10-27T03:10:16.219000+00:00",
+      "plate_appearances": 76,
+      "plate_appearances_with_start": 76,
+      "pitch_events": 294,
+      "pitch_events_with_start": 294,
+      "expected_minute_endpoints": 180,
+      "minute_coverage_fraction": 1.0,
+      "in_game_candles": {
+        "rows": 180,
+        "first_end_utc": "2026-10-27T00:11:00+00:00",
+        "last_end_utc": "2026-10-27T03:10:00+00:00",
+        "gaps_over_60_seconds": 0,
+        "rows_with_quotes": 180,
+        "median_spread": 0.010000000000000009,
+        "min_spread": 0.009999999999999953,
+        "max_spread": 0.020000000000000018
+      }
+    }
+  ]
+}

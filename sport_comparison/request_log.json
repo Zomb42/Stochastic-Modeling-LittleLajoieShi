@@ -1,0 +1,194 @@
+[
+  {
+    "label": "KXNFLGAME_live",
+    "url": "https://external-api.kalshi.com/trade-api/v2/markets?series_ticker=KXNFLGAME&limit=1000&status=settled",
+    "source": "existing cache",
+    "accessed_at_utc": "2026-10-27T20:45:41.214050+00:00"
+  },
+  {
+    "label": "KXNFLGAME_historical",
+    "url": "https://external-api.kalshi.com/trade-api/v2/historical/markets?series_ticker=KXNFLGAME&limit=1000",
+    "source": "existing cache",
+    "accessed_at_utc": "2026-10-27T20:45:41.219983+00:00"
+  },
+  {
+    "label": "NFLGAME_live",
+    "url": "https://external-api.kalshi.com/trade-api/v2/markets?series_ticker=NFLGAME&limit=1000&status=settled",
+    "source": "existing cache",
+    "accessed_at_utc": "2026-10-27T20:45:41.221671+00:00"
+  },
+  {
+    "label": "NFLGAME_historical",
+    "url": "https://external-api.kalshi.com/trade-api/v2/historical/markets?series_ticker=NFLGAME&limit=1000",
+    "source": "existing cache",
+    "accessed_at_utc": "2026-10-27T20:45:41.221863+00:00"
+  },
+  {
+    "label": "KXMLBGAME_live",
+    "url": "https://external-api.kalshi.com/trade-api/v2/markets?series_ticker=KXMLBGAME&limit=1000&status=settled",
+    "source": "existing cache",
+    "accessed_at_utc": "2026-10-27T20:45:41.233203+00:00"
+  },
+  {
+    "label": "KXMLBGAME_historical",
+    "url": "https://external-api.kalshi.com/trade-api/v2/historical/markets?series_ticker=KXMLBGAME&limit=1000",
+    "source": "existing cache",
+    "accessed_at_utc": "2026-10-27T20:45:41.335056+00:00"
+  },
+  {
+    "label": "MLBGAME_live",
+    "url": "https://external-api.kalshi.com/trade-api/v2/markets?series_ticker=MLBGAME&limit=1000&status=settled",
+    "source": "existing cache",
+    "accessed_at_utc": "2026-10-27T20:45:41.350111+00:00"
+  },
+  {
+    "label": "MLBGAME_historical",
+    "url": "https://external-api.kalshi.com/trade-api/v2/historical/markets?series_ticker=MLBGAME&limit=1000",
+    "source": "existing cache",
+    "accessed_at_utc": "2026-10-27T20:45:41.350446+00:00"
+  },
+  {
+    "label": "cutoff",
+    "url": "https://external-api.kalshi.com/trade-api/v2/historical/cutoff",
+    "source": "existing cache",
+    "accessed_at_utc": "2026-10-27T20:45:41.350666+00:00"
+  },
+  {
+    "label": "nfl_oldest_game_candles",
+    "url": "https://external-api.kalshi.com/trade-api/v2/historical/markets/KXNFLGAME-25JUL31LACDET-LAC/candlesticks?start_ts=1754002800&end_ts=1754024400&period_interval=1",
+    "source": "existing cache",
+    "accessed_at_utc": "2026-10-27T20:45:41.351440+00:00"
+  },
+  {
+    "label": "nfl_oldest_game_trades",
+    "url": "https://external-api.kalshi.com/trade-api/v2/historical/trades?ticker=KXNFLGAME-25JUL31LACDET-LAC&min_ts=1754002800&max_ts=1754024400&limit=1000",
+    "source": "existing cache",
+    "accessed_at_utc": "2026-10-27T20:45:41.354468+00:00"
+  },
+  {
+    "label": "nfl_earliest_pregame_candles",
+    "url": "https://external-api.kalshi.com/trade-api/v2/historical/markets/KXNFLGAME-25SEP08MINCHI-MIN/candlesticks?start_ts=1747746000&end_ts=1747839600&period_interval=1",
+    "source": "existing cache",
+    "accessed_at_utc": "2026-10-27T20:45:41.354933+00:00"
+  },
+  {
+    "label": "nfl_earliest_pregame_trades",
+    "url": "https://external-api.kalshi.com/trade-api/v2/historical/trades?ticker=KXNFLGAME-25SEP08MINCHI-MIN&min_ts=1747746000&max_ts=1747839600&limit=1000",
+    "source": "existing cache",
+    "accessed_at_utc": "2026-10-27T20:45:41.355605+00:00"
+  },
+  {
+    "label": "mlb_oldest_game_candles",
+    "url": "https://external-api.kalshi.com/trade-api/v2/historical/markets/KXMLBGAME-25APR16ATLTOR-ATL/candlesticks?start_ts=1744815600&end_ts=1744840800&period_interval=1",
+    "source": "existing cache",
+    "accessed_at_utc": "2026-10-27T20:45:41.356164+00:00"
+  },
+  {
+    "label": "mlb_oldest_game_trades",
+    "url": "https://external-api.kalshi.com/trade-api/v2/historical/trades?ticker=KXMLBGAME-25APR16ATLTOR-ATL&min_ts=1744815600&max_ts=1744840800&limit=1000",
+    "source": "existing cache",
+    "accessed_at_utc": "2026-10-27T20:45:41.357255+00:00"
+  },
+  {
+    "label": "mlb_teams_2025",
+    "url": "https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2025",
+    "source": "existing cache",
+    "accessed_at_utc": "2026-10-27T20:45:41.357609+00:00"
+  },
+  {
+    "label": "mlb_schedule_2025",
+    "url": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=2025-01-01&endDate=2025-12-31",
+    "source": "existing cache",
+    "accessed_at_utc": "2026-10-27T20:45:41.388739+00:00"
+  },
+  {
+    "label": "mlb_teams_2026",
+    "url": "https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026",
+    "source": "existing cache",
+    "accessed_at_utc": "2026-10-27T20:45:41.390105+00:00"
+  },
+  {
+    "label": "mlb_schedule_2026",
+    "url": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=2026-01-01&endDate=2026-12-31",
+    "source": "existing cache",
+    "accessed_at_utc": "2026-10-27T20:45:41.417726+00:00"
+  },
+  {
+    "label": "20250416_feed",
+    "url": "https://statsapi.mlb.com/api/v1.1/game/778297/feed/live",
+    "source": "existing cache",
+    "accessed_at_utc": "2026-10-27T20:45:41.581064+00:00"
+  },
+  {
+    "label": "20250416_candles",
+    "url": "https://external-api.kalshi.com/trade-api/v2/historical/markets/KXMLBGAME-25APR16ATLTOR-ATL/candlesticks?start_ts=1744821507&end_ts=1744833198&period_interval=1",
+    "source": "existing cache",
+    "accessed_at_utc": "2026-10-27T20:45:41.582022+00:00"
+  },
+  {
+    "label": "20250615_feed",
+    "url": "https://statsapi.mlb.com/api/v1.1/game/777496/feed/live",
+    "source": "existing cache",
+    "accessed_at_utc": "2026-10-27T20:45:41.595308+00:00"
+  },
+  {
+    "label": "20250615_candles",
+    "url": "https://external-api.kalshi.com/trade-api/v2/historical/markets/KXMLBGAME-25JUN15ATHKC-ATH/candlesticks?start_ts=1750009434&end_ts=1750021456&period_interval=1",
+    "source": "existing cache",
+    "accessed_at_utc": "2026-10-27T20:45:41.596762+00:00"
+  },
+  {
+    "label": "20250915_feed",
+    "url": "https://statsapi.mlb.com/api/v1.1/game/776309/feed/live",
+    "source": "existing cache",
+    "accessed_at_utc": "2026-10-27T20:45:41.608098+00:00"
+  },
+  {
+    "label": "20250915_candles",
+    "url": "https://external-api.kalshi.com/trade-api/v2/historical/markets/KXMLBGAME-25SEP15SFAZ-AZ/candlesticks?start_ts=1757985090&end_ts=1757995828&period_interval=1",
+    "source": "existing cache",
+    "accessed_at_utc": "2026-10-27T20:45:41.609376+00:00"
+  },
+  {
+    "label": "20260415_feed",
+    "url": "https://statsapi.mlb.com/api/v1.1/game/824532/feed/live",
+    "source": "existing cache",
+    "accessed_at_utc": "2026-10-27T20:45:41.617599+00:00"
+  },
+  {
+    "label": "20260415_candles",
+    "url": "https://external-api.kalshi.com/trade-api/v2/historical/markets/KXMLBGAME-26APR151840SFCIN-CIN/candlesticks?start_ts=1776291119&end_ts=1776301654&period_interval=1",
+    "source": "existing cache",
+    "accessed_at_utc": "2026-10-27T20:45:41.618793+00:00"
+  },
+  {
+    "label": "20260915_feed",
+    "url": "https://statsapi.mlb.com/api/v1.1/game/824307/feed/live",
+    "source": "existing cache",
+    "accessed_at_utc": "2026-10-27T20:45:41.627375+00:00"
+  },
+  {
+    "label": "20260915_candles",
+    "url": "https://external-api.kalshi.com/trade-api/v2/series/KXMLBGAME/markets/KXMLBGAME-26SEP152040SDCOL-COL/candlesticks?start_ts=1789517400&end_ts=1789528430&period_interval=1",
+    "source": "existing cache",
+    "accessed_at_utc": "2026-10-27T20:45:41.628976+00:00"
+  },
+  {
+    "label": "20261026_feed",
+    "url": "https://statsapi.mlb.com/api/v1.1/game/849804/feed/live",
+    "source": "existing cache",
+    "accessed_at_utc": "2026-10-27T20:45:41.640784+00:00"
+  },
+  {
+    "label": "20261026_candles",
+    "url": "https://external-api.kalshi.com/trade-api/v2/series/KXMLBGAME/markets/KXMLBGAME-26OCT262000MILTB-MIL/candlesticks?start_ts=1793058023&end_ts=1793070736&period_interval=1",
+    "source": "existing cache",
+    "accessed_at_utc": "2026-10-27T20:45:41.642266+00:00"
+  },
+  {
+    "label": "mlb_oldest_wp",
+    "url": "https://statsapi.mlb.com/api/v1/game/778297/winProbability",
+    "source": "existing cache",
+    "accessed_at_utc": "2026-10-27T20:45:41.651666+00:00"
+  }
+]

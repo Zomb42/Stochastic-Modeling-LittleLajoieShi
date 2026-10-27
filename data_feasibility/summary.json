@@ -1,0 +1,81 @@
+{
+  "checked_at_utc": "2026-10-27T20:33:53.442836+00:00",
+  "base_url": "https://external-api.kalshi.com/trade-api/v2",
+  "cutoffs": {
+    "market_positions_last_updated_ts": "2026-08-28T00:00:00Z",
+    "market_settled_ts": "2026-08-28T00:00:00Z",
+    "orders_updated_ts": "2026-10-13T00:00:00Z",
+    "trades_created_ts": "2026-08-28T00:00:00Z"
+  },
+  "unique_markets": 978,
+  "unique_events": 489,
+  "overlapping_markets": 32,
+  "events_by_calendar_year": {
+    "2025": 305,
+    "2026": 184
+  },
+  "earliest_market_close": "2025-08-01T03:54:11.506822Z",
+  "latest_market_close": "2026-10-27T03:20:04Z",
+  "samples": {
+    "live": {
+      "ticker": "KXNFLGAME-26OCT26DALPHI-DAL",
+      "candle_tier": "live",
+      "rows": 232,
+      "first_end_utc": "2026-10-26T23:30:00+00:00",
+      "last_end_utc": "2026-10-27T03:21:00+00:00",
+      "gaps_over_60_seconds": 0,
+      "rows_with_quotes": 232,
+      "median_spread": 0.010000000000000009,
+      "min_spread": 0.009999999999999898,
+      "max_spread": 1.0,
+      "trade_sample_rows": 1000,
+      "trades_incomplete": true
+    },
+    "historical": {
+      "ticker": "KXNFLGAME-25SEP04DALPHI-PHI",
+      "candle_tier": "historical",
+      "rows": 301,
+      "first_end_utc": "2025-09-04T23:30:00+00:00",
+      "last_end_utc": "2025-09-05T04:30:00+00:00",
+      "gaps_over_60_seconds": 0,
+      "rows_with_quotes": 301,
+      "median_spread": 0.010000000000000009,
+      "min_spread": 0.009999999999999898,
+      "max_spread": 1.0,
+      "trade_sample_rows": 1000,
+      "trades_incomplete": true
+    }
+  },
+  "nfl": {
+    "schedule_source": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
+    "pbp_source": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+    "schedule_matches": 388,
+    "schedule_matches_by_season_and_type": {
+      "2025_CON": 1,
+      "2025_DIV": 4,
+      "2025_WC": 6,
+      "2025_REG": 270,
+      "2026_REG": 107
+    },
+    "pbp_2025_games": 285,
+    "matched_pbp_games": 281,
+    "matched_games_with_timestamps": 281,
+    "matched_pbp_rows": 48114,
+    "matched_timestamp_rows": 46689,
+    "sample_rows": 163,
+    "sample_timestamp_rows": 156,
+    "sample_first_timestamp": "2025-09-05T00:23:01.813000+00:00",
+    "sample_last_timestamp": "2025-09-05T04:17:46.890000+00:00",
+    "sample_preplay_aligned_rows": 156,
+    "sample_in_play_candles": {
+      "rows": 234,
+      "first_end_utc": "2025-09-05T00:24:00+00:00",
+      "last_end_utc": "2025-09-05T04:17:00+00:00",
+      "gaps_over_60_seconds": 0,
+      "rows_with_quotes": 234,
+      "median_spread": 0.010000000000000009,
+      "min_spread": 0.009999999999999898,
+      "max_spread": 0.24000000000000005
+    }
+  }
+}

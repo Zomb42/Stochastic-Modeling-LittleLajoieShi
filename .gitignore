@@ -1,0 +1,46 @@
+# Local editor / operating-system files
+.DS_Store
+._*
+.vscode/
+.idea/
+
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Account credentials must never be shared with the project
+secrets/
+credentials/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*.json
+*credential*.json
+*secret*.json
+*api_key*.json
+!*.example.json
+
+# Preserve the included reference snapshots; ignore fresh local runs
+sport_comparison_fresh*/
+data_feasibility_fresh*/
+alignment_audit_fresh*/
+alignment_audit_local/
+
+# Local logs and future trained-model outputs
+*.log
+*.pid
+*.joblib
+*.pkl
+*.pickle
+models/

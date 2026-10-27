@@ -1,0 +1,2 @@
+# Optional for the data audit; needed to regenerate timeline PNGs.
+matplotlib>=3.9,<4

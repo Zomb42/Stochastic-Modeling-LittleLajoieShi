@@ -1,0 +1,66 @@
+{
+  "source": "Saved October 27, 2026 public Kalshi catalogs and candle responses",
+  "units": "contracts traded; not dollars, unique traders, or number of trade executions",
+  "regular_season": {
+    "2025": {
+      "games": 2109,
+      "team_contracts": 4218,
+      "median_lifetime_volume_per_team_contract": 80244.0
+    },
+    "2026": {
+      "games": 2376,
+      "team_contracts": 4752,
+      "median_lifetime_volume_per_team_contract": 1505162.25
+    }
+  },
+  "samples": [
+    {
+      "date": "2025-04-16",
+      "ticker": "KXMLBGAME-25APR16ATLTOR-ATL",
+      "in_game_contract_volume": 3861.0,
+      "minutes_with_trades": 35,
+      "possible_minute_endpoints": 163,
+      "returned_candles": 107
+    },
+    {
+      "date": "2025-06-15",
+      "ticker": "KXMLBGAME-25JUN15ATHKC-ATH",
+      "in_game_contract_volume": 46876.0,
+      "minutes_with_trades": 122,
+      "possible_minute_endpoints": 169,
+      "returned_candles": 169
+    },
+    {
+      "date": "2025-09-15",
+      "ticker": "KXMLBGAME-25SEP15SFAZ-AZ",
+      "in_game_contract_volume": 80841.0,
+      "minutes_with_trades": 121,
+      "possible_minute_endpoints": 147,
+      "returned_candles": 147
+    },
+    {
+      "date": "2026-04-15",
+      "ticker": "KXMLBGAME-26APR151840SFCIN-CIN",
+      "in_game_contract_volume": 836248.0,
+      "minutes_with_trades": 142,
+      "possible_minute_endpoints": 144,
+      "returned_candles": 144
+    },
+    {
+      "date": "2026-09-15",
+      "ticker": "KXMLBGAME-26SEP152040SDCOL-COL",
+      "in_game_contract_volume": 1297299.25,
+      "minutes_with_trades": 151,
+      "possible_minute_endpoints": 151,
+      "returned_candles": 151
+    },
+    {
+      "date": "2026-10-26",
+      "ticker": "KXMLBGAME-26OCT262000MILTB-MIL",
+      "in_game_contract_volume": 2637761.57,
+      "minutes_with_trades": 180,
+      "possible_minute_endpoints": 180,
+      "returned_candles": 180
+    }
+  ]
+}

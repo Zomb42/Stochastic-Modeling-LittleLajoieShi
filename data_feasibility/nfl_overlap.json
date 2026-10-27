@@ -1,0 +1,2666 @@
+{
+  "schedule_source": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
+  "pbp_source": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+  "schedule_matches": 388,
+  "unmatched_events": [
+    "KXNFLGAME-25AUG07CINPHI",
+    "KXNFLGAME-25AUG07INDBAL",
+    "KXNFLGAME-25AUG07LVSEA",
+    "KXNFLGAME-25AUG08CLECAR",
+    "KXNFLGAME-25AUG08DETATL",
+    "KXNFLGAME-25AUG08WASNE",
+    "KXNFLGAME-25AUG09DALLA",
+    "KXNFLGAME-25AUG09DENSF",
+    "KXNFLGAME-25AUG09HOUMIN",
+    "KXNFLGAME-25AUG09KCARI",
+    "KXNFLGAME-25AUG09NYGBUF",
+    "KXNFLGAME-25AUG09NYJGB",
+    "KXNFLGAME-25AUG09PITJAC",
+    "KXNFLGAME-25AUG09TENTB",
+    "KXNFLGAME-25AUG10MIACHI",
+    "KXNFLGAME-25AUG10NOLAC",
+    "KXNFLGAME-25AUG15KCSEA",
+    "KXNFLGAME-25AUG15TENATL",
+    "KXNFLGAME-25AUG16ARIDEN",
+    "KXNFLGAME-25AUG16BALDAL",
+    "KXNFLGAME-25AUG16CARHOU",
+    "KXNFLGAME-25AUG16CLEPHI",
+    "KXNFLGAME-25AUG16GBIND",
+    "KXNFLGAME-25AUG16LACLA",
+    "KXNFLGAME-25AUG16MIADET",
+    "KXNFLGAME-25AUG16NEMIN",
+    "KXNFLGAME-25AUG16NYJNYG",
+    "KXNFLGAME-25AUG16SFLV",
+    "KXNFLGAME-25AUG16TBPIT",
+    "KXNFLGAME-25AUG17BUFCHI",
+    "KXNFLGAME-25AUG17JACNO",
+    "KXNFLGAME-25AUG18CINWAS",
+    "KXNFLGAME-25AUG21NENYG",
+    "KXNFLGAME-25AUG21PITCAR",
+    "KXNFLGAME-25AUG22ATLDAL",
+    "KXNFLGAME-25AUG22CHIKC",
+    "KXNFLGAME-25AUG22MINTEN",
+    "KXNFLGAME-25AUG22PHINYJ",
+    "KXNFLGAME-25AUG23BALWAS",
+    "KXNFLGAME-25AUG23BUFTB",
+    "KXNFLGAME-25AUG23DENNO",
+    "KXNFLGAME-25AUG23HOUDET",
+    "KXNFLGAME-25AUG23INDCIN",
+    "KXNFLGAME-25AUG23JACMIA",
+    "KXNFLGAME-25AUG23LACLE",
+    "KXNFLGAME-25AUG23LACSF",
+    "KXNFLGAME-25AUG23LVARI",
+    "KXNFLGAME-25AUG23SEAGB",
+    "KXNFLGAME-25JUL31LACDET",
+    "KXNFLGAME-26AUG06CARARI",
+    "KXNFLGAME-26AUG13ARILV",
+    "KXNFLGAME-26AUG13DETCIN",
+    "KXNFLGAME-26AUG13GBPIT",
+    "KXNFLGAME-26AUG13INDNE",
+    "KXNFLGAME-26AUG13LACHOU",
+    "KXNFLGAME-26AUG13TENSF",
+    "KXNFLGAME-26AUG14DENATL",
+    "KXNFLGAME-26AUG14MIAWAS",
+    "KXNFLGAME-26AUG14TBNYJ",
+    "KXNFLGAME-26AUG15CARBUF",
+    "KXNFLGAME-26AUG15CLECHI",
+    "KXNFLGAME-26AUG15DALSEA",
+    "KXNFLGAME-26AUG15JACNO",
+    "KXNFLGAME-26AUG15LARKC",
+    "KXNFLGAME-26AUG15MINNYG",
+    "KXNFLGAME-26AUG15PHIBAL",
+    "KXNFLGAME-26AUG20LVHOU",
+    "KXNFLGAME-26AUG20SFLAC",
+    "KXNFLGAME-26AUG21CARJAC",
+    "KXNFLGAME-26AUG21GBDEN",
+    "KXNFLGAME-26AUG21NYJPIT",
+    "KXNFLGAME-26AUG22ATLIND",
+    "KXNFLGAME-26AUG22BALMIN",
+    "KXNFLGAME-26AUG22BUFCLE",
+    "KXNFLGAME-26AUG22CHICIN",
+    "KXNFLGAME-26AUG22DALARI",
+    "KXNFLGAME-26AUG22KCTB",
+    "KXNFLGAME-26AUG22NOLAR",
+    "KXNFLGAME-26AUG22NYGMIA",
+    "KXNFLGAME-26AUG22PHINE",
+    "KXNFLGAME-26AUG22WASDET",
+    "KXNFLGAME-26AUG23SEATEN",
+    "KXNFLGAME-26AUG27LARLAC",
+    "KXNFLGAME-26AUG27NECLE",
+    "KXNFLGAME-26AUG27PITBUF",
+    "KXNFLGAME-26AUG27SFLV",
+    "KXNFLGAME-26AUG28ARIGB",
+    "KXNFLGAME-26AUG28ATLMIA",
+    "KXNFLGAME-26AUG28CINPHI",
+    "KXNFLGAME-26AUG28HOUCAR",
+    "KXNFLGAME-26AUG28MINDEN",
+    "KXNFLGAME-26AUG28NODAL",
+    "KXNFLGAME-26AUG28NYGNYJ",
+    "KXNFLGAME-26AUG28SEAKC",
+    "KXNFLGAME-26AUG28TBJAC",
+    "KXNFLGAME-26AUG28WASBAL",
+    "KXNFLGAME-26AUG29CHITEN",
+    "KXNFLGAME-26AUG29DETIND",
+    "KXNFLGAME-26JAN04CARTB",
+    "KXNFLGAME-26JAN04SEASF",
+    "KXNFLGAME-26JAN18SFSEA"
+  ],
+  "schedule_matches_by_season_and_type": {
+    "2025_CON": 1,
+    "2025_DIV": 4,
+    "2025_WC": 6,
+    "2025_REG": 270,
+    "2026_REG": 107
+  },
+  "pbp_2025_games": 285,
+  "matched_pbp_games": 281,
+  "matched_games_with_timestamps": 281,
+  "matched_pbp_rows": 48114,
+  "matched_timestamp_rows": 46689,
+  "sample_rows": 163,
+  "sample_timestamp_rows": 156,
+  "sample_first_timestamp": "2025-09-05T00:23:01.813000+00:00",
+  "sample_last_timestamp": "2025-09-05T04:17:46.890000+00:00",
+  "sample_preplay_aligned_rows": 156,
+  "sample_in_play_candles": {
+    "rows": 234,
+    "first_end_utc": "2025-09-05T00:24:00+00:00",
+    "last_end_utc": "2025-09-05T04:17:00+00:00",
+    "gaps_over_60_seconds": 0,
+    "rows_with_quotes": 234,
+    "median_spread": 0.010000000000000009,
+    "min_spread": 0.009999999999999898,
+    "max_spread": 0.24000000000000005
+  },
+  "matches": [
+    {
+      "event_ticker": "KXNFLGAME-26JAN25LASEA",
+      "game_id": "2025_21_LA_SEA",
+      "season": "2025",
+      "game_type": "CON",
+      "rows": 176,
+      "timestamp_rows": 171,
+      "iso_utc_rows": 171
+    },
+    {
+      "event_ticker": "KXNFLGAME-26JAN18HOUNE",
+      "game_id": "2025_20_HOU_NE",
+      "season": "2025",
+      "game_type": "DIV",
+      "rows": 185,
+      "timestamp_rows": 180,
+      "iso_utc_rows": 180
+    },
+    {
+      "event_ticker": "KXNFLGAME-26JAN17SFSEA",
+      "game_id": "2025_20_SF_SEA",
+      "season": "2025",
+      "game_type": "DIV",
+      "rows": 151,
+      "timestamp_rows": 146,
+      "iso_utc_rows": 146
+    },
+    {
+      "event_ticker": "KXNFLGAME-26JAN17BUFDEN",
+      "game_id": "2025_20_BUF_DEN",
+      "season": "2025",
+      "game_type": "DIV",
+      "rows": 203,
+      "timestamp_rows": 197,
+      "iso_utc_rows": 197
+    },
+    {
+      "event_ticker": "KXNFLGAME-26JAN18LACHI",
+      "game_id": "2025_20_LA_CHI",
+      "season": "2025",
+      "game_type": "DIV",
+      "rows": 201,
+      "timestamp_rows": 195,
+      "iso_utc_rows": 195
+    },
+    {
+      "event_ticker": "KXNFLGAME-26JAN10GBCHI",
+      "game_id": "2025_19_GB_CHI",
+      "season": "2025",
+      "game_type": "WC",
+      "rows": 194,
+      "timestamp_rows": 189,
+      "iso_utc_rows": 189
+    },
+    {
+      "event_ticker": "KXNFLGAME-26JAN10LACAR",
+      "game_id": "2025_19_LA_CAR",
+      "season": "2025",
+      "game_type": "WC",
+      "rows": 189,
+      "timestamp_rows": 184,
+      "iso_utc_rows": 184
+    },
+    {
+      "event_ticker": "KXNFLGAME-26JAN11LACNE",
+      "game_id": "2025_19_LAC_NE",
+      "season": "2025",
+      "game_type": "WC",
+      "rows": 162,
+      "timestamp_rows": 157,
+      "iso_utc_rows": 157
+    },
+    {
+      "event_ticker": "KXNFLGAME-26JAN11SFPHI",
+      "game_id": "2025_19_SF_PHI",
+      "season": "2025",
+      "game_type": "WC",
+      "rows": 173,
+      "timestamp_rows": 168,
+      "iso_utc_rows": 168
+    },
+    {
+      "event_ticker": "KXNFLGAME-26JAN12HOUPIT",
+      "game_id": "2025_19_HOU_PIT",
+      "season": "2025",
+      "game_type": "WC",
+      "rows": 165,
+      "timestamp_rows": 160,
+      "iso_utc_rows": 160
+    },
+    {
+      "event_ticker": "KXNFLGAME-26JAN11BUFJAC",
+      "game_id": "2025_19_BUF_JAX",
+      "season": "2025",
+      "game_type": "WC",
+      "rows": 163,
+      "timestamp_rows": 158,
+      "iso_utc_rows": 158
+    },
+    {
+      "event_ticker": "KXNFLGAME-26JAN04NYJBUF",
+      "game_id": "2025_18_NYJ_BUF",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 149,
+      "timestamp_rows": 144,
+      "iso_utc_rows": 144
+    },
+    {
+      "event_ticker": "KXNFLGAME-26JAN04KCLV",
+      "game_id": "2025_18_KC_LV",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 177,
+      "timestamp_rows": 172,
+      "iso_utc_rows": 172
+    },
+    {
+      "event_ticker": "KXNFLGAME-26JAN04BALPIT",
+      "game_id": "2025_18_BAL_PIT",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 171,
+      "timestamp_rows": 166,
+      "iso_utc_rows": 166
+    },
+    {
+      "event_ticker": "KXNFLGAME-26JAN04LACDEN",
+      "game_id": "2025_18_LAC_DEN",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 175,
+      "timestamp_rows": 170,
+      "iso_utc_rows": 170
+    },
+    {
+      "event_ticker": "KXNFLGAME-26JAN04NOATL",
+      "game_id": "2025_18_NO_ATL",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 174,
+      "timestamp_rows": 169,
+      "iso_utc_rows": 169
+    },
+    {
+      "event_ticker": "KXNFLGAME-26JAN04CLECIN",
+      "game_id": "2025_18_CLE_CIN",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 163,
+      "timestamp_rows": 158,
+      "iso_utc_rows": 158
+    },
+    {
+      "event_ticker": "KXNFLGAME-26JAN04WASPHI",
+      "game_id": "2025_18_WAS_PHI",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 175,
+      "timestamp_rows": 170,
+      "iso_utc_rows": 170
+    },
+    {
+      "event_ticker": "KXNFLGAME-26JAN04DALNYG",
+      "game_id": "2025_18_DAL_NYG",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 168,
+      "timestamp_rows": 163,
+      "iso_utc_rows": 163
+    },
+    {
+      "event_ticker": "KXNFLGAME-26JAN04TENJAC",
+      "game_id": "2025_18_TEN_JAX",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 152,
+      "timestamp_rows": 147,
+      "iso_utc_rows": 147
+    },
+    {
+      "event_ticker": "KXNFLGAME-26JAN04INDHOU",
+      "game_id": "2025_18_IND_HOU",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 181,
+      "timestamp_rows": 176,
+      "iso_utc_rows": 176
+    },
+    {
+      "event_ticker": "KXNFLGAME-26JAN04DETCHI",
+      "game_id": "2025_18_DET_CHI",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 166,
+      "timestamp_rows": 161,
+      "iso_utc_rows": 161
+    },
+    {
+      "event_ticker": "KXNFLGAME-26JAN04ARILA",
+      "game_id": "2025_18_ARI_LA",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 176,
+      "timestamp_rows": 171,
+      "iso_utc_rows": 171
+    },
+    {
+      "event_ticker": "KXNFLGAME-26JAN04MIANE",
+      "game_id": "2025_18_MIA_NE",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 156,
+      "timestamp_rows": 151,
+      "iso_utc_rows": 151
+    },
+    {
+      "event_ticker": "KXNFLGAME-26JAN04GBMIN",
+      "game_id": "2025_18_GB_MIN",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 153,
+      "timestamp_rows": 148,
+      "iso_utc_rows": 148
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC27BALGB",
+      "game_id": "2025_17_BAL_GB",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 161,
+      "timestamp_rows": 156,
+      "iso_utc_rows": 156
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC27HOULAC",
+      "game_id": "2025_17_HOU_LAC",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 170,
+      "timestamp_rows": 165,
+      "iso_utc_rows": 165
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC28NYGLV",
+      "game_id": "2025_17_NYG_LV",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 157,
+      "timestamp_rows": 152,
+      "iso_utc_rows": 152
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC28PHIBUF",
+      "game_id": "2025_17_PHI_BUF",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 168,
+      "timestamp_rows": 163,
+      "iso_utc_rows": 163
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC28SEACAR",
+      "game_id": "2025_17_SEA_CAR",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 157,
+      "timestamp_rows": 152,
+      "iso_utc_rows": 152
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC29LAATL",
+      "game_id": "2025_17_LA_ATL",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 163,
+      "timestamp_rows": 158,
+      "iso_utc_rows": 158
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC28CHISF",
+      "game_id": "2025_17_CHI_SF",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 184,
+      "timestamp_rows": 179,
+      "iso_utc_rows": 179
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC28JACIND",
+      "game_id": "2025_17_JAX_IND",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 168,
+      "timestamp_rows": 163,
+      "iso_utc_rows": 163
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC28NOTEN",
+      "game_id": "2025_17_NO_TEN",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 175,
+      "timestamp_rows": 170,
+      "iso_utc_rows": 170
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC28ARICIN",
+      "game_id": "2025_17_ARI_CIN",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 171,
+      "timestamp_rows": 166,
+      "iso_utc_rows": 166
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC28NENYJ",
+      "game_id": "2025_17_NE_NYJ",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 166,
+      "timestamp_rows": 161,
+      "iso_utc_rows": 161
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC28TBMIA",
+      "game_id": "2025_17_TB_MIA",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 166,
+      "timestamp_rows": 161,
+      "iso_utc_rows": 161
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC25DENKC",
+      "game_id": "2025_17_DEN_KC",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 151,
+      "timestamp_rows": 146,
+      "iso_utc_rows": 146
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC28PITCLE",
+      "game_id": "2025_17_PIT_CLE",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 157,
+      "timestamp_rows": 152,
+      "iso_utc_rows": 152
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC25DETMIN",
+      "game_id": "2025_17_DET_MIN",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 163,
+      "timestamp_rows": 158,
+      "iso_utc_rows": 158
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC25DALWAS",
+      "game_id": "2025_17_DAL_WAS",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 187,
+      "timestamp_rows": 182,
+      "iso_utc_rows": 182
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC21NEBAL",
+      "game_id": "2025_16_NE_BAL",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 171,
+      "timestamp_rows": 166,
+      "iso_utc_rows": 166
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC22SFIND",
+      "game_id": "2025_16_SF_IND",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 169,
+      "timestamp_rows": 164,
+      "iso_utc_rows": 164
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC21PITDET",
+      "game_id": "2025_16_PIT_DET",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 192,
+      "timestamp_rows": 187,
+      "iso_utc_rows": 187
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC21LVHOU",
+      "game_id": "2025_16_LV_HOU",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 166,
+      "timestamp_rows": 161,
+      "iso_utc_rows": 161
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC21ATLARI",
+      "game_id": "2025_16_ATL_ARI",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 173,
+      "timestamp_rows": 168,
+      "iso_utc_rows": 168
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC21JACDEN",
+      "game_id": "2025_16_JAX_DEN",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 183,
+      "timestamp_rows": 178,
+      "iso_utc_rows": 178
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC21MINNYG",
+      "game_id": "2025_16_MIN_NYG",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 153,
+      "timestamp_rows": 148,
+      "iso_utc_rows": 148
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC21KCTEN",
+      "game_id": "2025_16_KC_TEN",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 167,
+      "timestamp_rows": 162,
+      "iso_utc_rows": 162
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC21TBCAR",
+      "game_id": "2025_16_TB_CAR",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 161,
+      "timestamp_rows": 156,
+      "iso_utc_rows": 156
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC21NYJNO",
+      "game_id": "2025_16_NYJ_NO",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 184,
+      "timestamp_rows": 179,
+      "iso_utc_rows": 179
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC21CINMIA",
+      "game_id": "2025_16_CIN_MIA",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 162,
+      "timestamp_rows": 157,
+      "iso_utc_rows": 157
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC21BUFCLE",
+      "game_id": "2025_16_BUF_CLE",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 156,
+      "timestamp_rows": 151,
+      "iso_utc_rows": 151
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC21LACDAL",
+      "game_id": "2025_16_LAC_DAL",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 159,
+      "timestamp_rows": 154,
+      "iso_utc_rows": 154
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC20GBCHI",
+      "game_id": "2025_16_GB_CHI",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 174,
+      "timestamp_rows": 168,
+      "iso_utc_rows": 168
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC20PHIWAS",
+      "game_id": "2025_16_PHI_WAS",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 165,
+      "timestamp_rows": 160,
+      "iso_utc_rows": 160
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC18LASEA",
+      "game_id": "2025_16_LA_SEA",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 215,
+      "timestamp_rows": 209,
+      "iso_utc_rows": 209
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC15MIAPIT",
+      "game_id": "2025_15_MIA_PIT",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 157,
+      "timestamp_rows": 152,
+      "iso_utc_rows": 152
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC14MINDAL",
+      "game_id": "2025_15_MIN_DAL",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 174,
+      "timestamp_rows": 169,
+      "iso_utc_rows": 169
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC14DETLA",
+      "game_id": "2025_15_DET_LA",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 185,
+      "timestamp_rows": 180,
+      "iso_utc_rows": 180
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC14CARNO",
+      "game_id": "2025_15_CAR_NO",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 164,
+      "timestamp_rows": 159,
+      "iso_utc_rows": 159
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC14GBDEN",
+      "game_id": "2025_15_GB_DEN",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 180,
+      "timestamp_rows": 175,
+      "iso_utc_rows": 175
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC14NYJJAC",
+      "game_id": "2025_15_NYJ_JAX",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 172,
+      "timestamp_rows": 167,
+      "iso_utc_rows": 167
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC14TENSF",
+      "game_id": "2025_15_TEN_SF",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 173,
+      "timestamp_rows": 168,
+      "iso_utc_rows": 168
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC14INDSEA",
+      "game_id": "2025_15_IND_SEA",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 168,
+      "timestamp_rows": 163,
+      "iso_utc_rows": 163
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC14LACKC",
+      "game_id": "2025_15_LAC_KC",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 164,
+      "timestamp_rows": 159,
+      "iso_utc_rows": 159
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC14BALCIN",
+      "game_id": "2025_15_BAL_CIN",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 146,
+      "timestamp_rows": 141,
+      "iso_utc_rows": 141
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC14BUFNE",
+      "game_id": "2025_15_BUF_NE",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 166,
+      "timestamp_rows": 161,
+      "iso_utc_rows": 161
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC14ARIHOU",
+      "game_id": "2025_15_ARI_HOU",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 174,
+      "timestamp_rows": 169,
+      "iso_utc_rows": 169
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC14CLECHI",
+      "game_id": "2025_15_CLE_CHI",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 165,
+      "timestamp_rows": 160,
+      "iso_utc_rows": 160
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC14LVPHI",
+      "game_id": "2025_15_LV_PHI",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 135,
+      "timestamp_rows": 130,
+      "iso_utc_rows": 130
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC14WASNYG",
+      "game_id": "2025_15_WAS_NYG",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 179,
+      "timestamp_rows": 174,
+      "iso_utc_rows": 174
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC11ATLTB",
+      "game_id": "2025_15_ATL_TB",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 186,
+      "timestamp_rows": 181,
+      "iso_utc_rows": 181
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC07LAARI",
+      "game_id": "2025_14_LA_ARI",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 178,
+      "timestamp_rows": 173,
+      "iso_utc_rows": 173
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC07HOUKC",
+      "game_id": "2025_14_HOU_KC",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 179,
+      "timestamp_rows": 174,
+      "iso_utc_rows": 174
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC08PHILAC",
+      "game_id": "2025_14_PHI_LAC",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 196,
+      "timestamp_rows": 190,
+      "iso_utc_rows": 190
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC07CHIGB",
+      "game_id": "2025_14_CHI_GB",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 161,
+      "timestamp_rows": 156,
+      "iso_utc_rows": 156
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC07WASMIN",
+      "game_id": "2025_14_WAS_MIN",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 141,
+      "timestamp_rows": 136,
+      "iso_utc_rows": 136
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC07DENLV",
+      "game_id": "2025_14_DEN_LV",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 162,
+      "timestamp_rows": 157,
+      "iso_utc_rows": 157
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC07NOTB",
+      "game_id": "2025_14_NO_TB",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 174,
+      "timestamp_rows": 169,
+      "iso_utc_rows": 169
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC07INDJAC",
+      "game_id": "2025_14_IND_JAX",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 176,
+      "timestamp_rows": 171,
+      "iso_utc_rows": 171
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC07PITBAL",
+      "game_id": "2025_14_PIT_BAL",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 177,
+      "timestamp_rows": 172,
+      "iso_utc_rows": 172
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC07MIANYJ",
+      "game_id": "2025_14_MIA_NYJ",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 172,
+      "timestamp_rows": 167,
+      "iso_utc_rows": 167
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC07CINBUF",
+      "game_id": "2025_14_CIN_BUF",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 162,
+      "timestamp_rows": 157,
+      "iso_utc_rows": 157
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC07TENCLE",
+      "game_id": "2025_14_TEN_CLE",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 187,
+      "timestamp_rows": 182,
+      "iso_utc_rows": 182
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC07SEAATL",
+      "game_id": "2025_14_SEA_ATL",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 165,
+      "timestamp_rows": 160,
+      "iso_utc_rows": 160
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC04DALDET",
+      "game_id": "2025_14_DAL_DET",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 192,
+      "timestamp_rows": 187,
+      "iso_utc_rows": 187
+    },
+    {
+      "event_ticker": "KXNFLGAME-25DEC01NYGNE",
+      "game_id": "2025_13_NYG_NE",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 161,
+      "timestamp_rows": 156,
+      "iso_utc_rows": 156
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV30DENWAS",
+      "game_id": "2025_13_DEN_WAS",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 209,
+      "timestamp_rows": 203,
+      "iso_utc_rows": 203
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV30LVLAC",
+      "game_id": "2025_13_LV_LAC",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 156,
+      "timestamp_rows": 151,
+      "iso_utc_rows": 151
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV30BUFPIT",
+      "game_id": "2025_13_BUF_PIT",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 153,
+      "timestamp_rows": 148,
+      "iso_utc_rows": 148
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV30SFCLE",
+      "game_id": "2025_13_SF_CLE",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 166,
+      "timestamp_rows": 161,
+      "iso_utc_rows": 161
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV30MINSEA",
+      "game_id": "2025_13_MIN_SEA",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 151,
+      "timestamp_rows": 146,
+      "iso_utc_rows": 146
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV30HOUIND",
+      "game_id": "2025_13_HOU_IND",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 168,
+      "timestamp_rows": 163,
+      "iso_utc_rows": 163
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV30ARITB",
+      "game_id": "2025_13_ARI_TB",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 162,
+      "timestamp_rows": 157,
+      "iso_utc_rows": 157
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV30NOMIA",
+      "game_id": "2025_13_NO_MIA",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 175,
+      "timestamp_rows": 170,
+      "iso_utc_rows": 170
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV30LACAR",
+      "game_id": "2025_13_LA_CAR",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 152,
+      "timestamp_rows": 147,
+      "iso_utc_rows": 147
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV30ATLNYJ",
+      "game_id": "2025_13_ATL_NYJ",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 188,
+      "timestamp_rows": 183,
+      "iso_utc_rows": 183
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV28CHIPHI",
+      "game_id": "2025_13_CHI_PHI",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 181,
+      "timestamp_rows": 176,
+      "iso_utc_rows": 176
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV30JACTEN",
+      "game_id": "2025_13_JAX_TEN",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 163,
+      "timestamp_rows": 158,
+      "iso_utc_rows": 158
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV27CINBAL",
+      "game_id": "2025_13_CIN_BAL",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 192,
+      "timestamp_rows": 187,
+      "iso_utc_rows": 187
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV27KCDAL",
+      "game_id": "2025_13_KC_DAL",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 178,
+      "timestamp_rows": 173,
+      "iso_utc_rows": 173
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV27GBDET",
+      "game_id": "2025_13_GB_DET",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 165,
+      "timestamp_rows": 160,
+      "iso_utc_rows": 160
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV24CARSF",
+      "game_id": "2025_12_CAR_SF",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 150,
+      "timestamp_rows": 145,
+      "iso_utc_rows": 145
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV23TBLA",
+      "game_id": "2025_12_TB_LA",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 159,
+      "timestamp_rows": 154,
+      "iso_utc_rows": 154
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV23PHIDAL",
+      "game_id": "2025_12_PHI_DAL",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 183,
+      "timestamp_rows": 178,
+      "iso_utc_rows": 178
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV23ATLNO",
+      "game_id": "2025_12_ATL_NO",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 177,
+      "timestamp_rows": 172,
+      "iso_utc_rows": 172
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV23CLELV",
+      "game_id": "2025_12_CLE_LV",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 181,
+      "timestamp_rows": 176,
+      "iso_utc_rows": 176
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV23NYGDET",
+      "game_id": "2025_12_NYG_DET",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 199,
+      "timestamp_rows": 193,
+      "iso_utc_rows": 193
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV23NYJBAL",
+      "game_id": "2025_12_NYJ_BAL",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 162,
+      "timestamp_rows": 157,
+      "iso_utc_rows": 157
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV23SEATEN",
+      "game_id": "2025_12_SEA_TEN",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 168,
+      "timestamp_rows": 163,
+      "iso_utc_rows": 163
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV23JACARI",
+      "game_id": "2025_12_JAX_ARI",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 191,
+      "timestamp_rows": 185,
+      "iso_utc_rows": 185
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV23PITCHI",
+      "game_id": "2025_12_PIT_CHI",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 178,
+      "timestamp_rows": 173,
+      "iso_utc_rows": 173
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV23MINGB",
+      "game_id": "2025_12_MIN_GB",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 148,
+      "timestamp_rows": 143,
+      "iso_utc_rows": 143
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV23NECIN",
+      "game_id": "2025_12_NE_CIN",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 181,
+      "timestamp_rows": 176,
+      "iso_utc_rows": 176
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV23INDKC",
+      "game_id": "2025_12_IND_KC",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 199,
+      "timestamp_rows": 193,
+      "iso_utc_rows": 193
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV20BUFHOU",
+      "game_id": "2025_12_BUF_HOU",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 169,
+      "timestamp_rows": 164,
+      "iso_utc_rows": 164
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV17DALLV",
+      "game_id": "2025_11_DAL_LV",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 170,
+      "timestamp_rows": 165,
+      "iso_utc_rows": 165
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV16DETPHI",
+      "game_id": "2025_11_DET_PHI",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 174,
+      "timestamp_rows": 169,
+      "iso_utc_rows": 169
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV16KCDEN",
+      "game_id": "2025_11_KC_DEN",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 181,
+      "timestamp_rows": 176,
+      "iso_utc_rows": 176
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV16BALCLE",
+      "game_id": "2025_11_BAL_CLE",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 161,
+      "timestamp_rows": 156,
+      "iso_utc_rows": 156
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV16SEALA",
+      "game_id": "2025_11_SEA_LA",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 178,
+      "timestamp_rows": 173,
+      "iso_utc_rows": 173
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV16SFARI",
+      "game_id": "2025_11_SF_ARI",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 181,
+      "timestamp_rows": 176,
+      "iso_utc_rows": 176
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV16CINPIT",
+      "game_id": "2025_11_CIN_PIT",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 175,
+      "timestamp_rows": 170,
+      "iso_utc_rows": 170
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV16WASMIA",
+      "game_id": "2025_11_WAS_MIA",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 165,
+      "timestamp_rows": 159,
+      "iso_utc_rows": 159
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV16TBBUF",
+      "game_id": "2025_11_TB_BUF",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 175,
+      "timestamp_rows": 170,
+      "iso_utc_rows": 170
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV16GBNYG",
+      "game_id": "2025_11_GB_NYG",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 163,
+      "timestamp_rows": 158,
+      "iso_utc_rows": 158
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV16CARATL",
+      "game_id": "2025_11_CAR_ATL",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 193,
+      "timestamp_rows": 187,
+      "iso_utc_rows": 187
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV16LACJAC",
+      "game_id": "2025_11_LAC_JAX",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 149,
+      "timestamp_rows": 144,
+      "iso_utc_rows": 144
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV16HOUTEN",
+      "game_id": "2025_11_HOU_TEN",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 175,
+      "timestamp_rows": 170,
+      "iso_utc_rows": 170
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV16CHIMIN",
+      "game_id": "2025_11_CHI_MIN",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 173,
+      "timestamp_rows": 168,
+      "iso_utc_rows": 168
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV13NYJNE",
+      "game_id": "2025_11_NYJ_NE",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 162,
+      "timestamp_rows": 157,
+      "iso_utc_rows": 157
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV10PHIGB",
+      "game_id": "2025_10_PHI_GB",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 171,
+      "timestamp_rows": 166,
+      "iso_utc_rows": 166
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV09PITLAC",
+      "game_id": "2025_10_PIT_LAC",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 169,
+      "timestamp_rows": 164,
+      "iso_utc_rows": 164
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV09DETWAS",
+      "game_id": "2025_10_DET_WAS",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 163,
+      "timestamp_rows": 158,
+      "iso_utc_rows": 158
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV09LASF",
+      "game_id": "2025_10_LA_SF",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 172,
+      "timestamp_rows": 167,
+      "iso_utc_rows": 167
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV09ARISEA",
+      "game_id": "2025_10_ARI_SEA",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 178,
+      "timestamp_rows": 173,
+      "iso_utc_rows": 173
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV09BUFMIA",
+      "game_id": "2025_10_BUF_MIA",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 157,
+      "timestamp_rows": 152,
+      "iso_utc_rows": 152
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV09NYGCHI",
+      "game_id": "2025_10_NYG_CHI",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 178,
+      "timestamp_rows": 173,
+      "iso_utc_rows": 173
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV09CLENYJ",
+      "game_id": "2025_10_CLE_NYJ",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 173,
+      "timestamp_rows": 168,
+      "iso_utc_rows": 168
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV09NOCAR",
+      "game_id": "2025_10_NO_CAR",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 153,
+      "timestamp_rows": 148,
+      "iso_utc_rows": 148
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV09JACHOU",
+      "game_id": "2025_10_JAX_HOU",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 183,
+      "timestamp_rows": 178,
+      "iso_utc_rows": 178
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV09NETB",
+      "game_id": "2025_10_NE_TB",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 173,
+      "timestamp_rows": 168,
+      "iso_utc_rows": 168
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV09BALMIN",
+      "game_id": "2025_10_BAL_MIN",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 186,
+      "timestamp_rows": 181,
+      "iso_utc_rows": 181
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV09ATLIND",
+      "game_id": "2025_10_ATL_IND",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 180,
+      "timestamp_rows": 174,
+      "iso_utc_rows": 174
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV06LVDEN",
+      "game_id": "2025_10_LV_DEN",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 164,
+      "timestamp_rows": 159,
+      "iso_utc_rows": 159
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV02SEAWAS",
+      "game_id": "2025_09_SEA_WAS",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 155,
+      "timestamp_rows": 150,
+      "iso_utc_rows": 150
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV03ARIDAL",
+      "game_id": "2025_09_ARI_DAL",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 171,
+      "timestamp_rows": 166,
+      "iso_utc_rows": 166
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV02KCBUF",
+      "game_id": "2025_09_KC_BUF",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 167,
+      "timestamp_rows": 162,
+      "iso_utc_rows": 162
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV02NOLA",
+      "game_id": "2025_09_NO_LA",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 157,
+      "timestamp_rows": 152,
+      "iso_utc_rows": 152
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV02JACLV",
+      "game_id": "2025_09_JAX_LV",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 189,
+      "timestamp_rows": 183,
+      "iso_utc_rows": 183
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV02CARGB",
+      "game_id": "2025_09_CAR_GB",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 156,
+      "timestamp_rows": 151,
+      "iso_utc_rows": 151
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV02MINDET",
+      "game_id": "2025_09_MIN_DET",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 172,
+      "timestamp_rows": 167,
+      "iso_utc_rows": 167
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV02CHICIN",
+      "game_id": "2025_09_CHI_CIN",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 204,
+      "timestamp_rows": 199,
+      "iso_utc_rows": 199
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT30BALMIA",
+      "game_id": "2025_09_BAL_MIA",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 159,
+      "timestamp_rows": 154,
+      "iso_utc_rows": 154
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV02LACTEN",
+      "game_id": "2025_09_LAC_TEN",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 151,
+      "timestamp_rows": 146,
+      "iso_utc_rows": 146
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV02INDPIT",
+      "game_id": "2025_09_IND_PIT",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 181,
+      "timestamp_rows": 176,
+      "iso_utc_rows": 176
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV02ATLNE",
+      "game_id": "2025_09_ATL_NE",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 166,
+      "timestamp_rows": 161,
+      "iso_utc_rows": 161
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV02DENHOU",
+      "game_id": "2025_09_DEN_HOU",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 188,
+      "timestamp_rows": 183,
+      "iso_utc_rows": 183
+    },
+    {
+      "event_ticker": "KXNFLGAME-25NOV02SFNYG",
+      "game_id": "2025_09_SF_NYG",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 169,
+      "timestamp_rows": 164,
+      "iso_utc_rows": 164
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT27WASKC",
+      "game_id": "2025_08_WAS_KC",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 148,
+      "timestamp_rows": 143,
+      "iso_utc_rows": 143
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT26TENIND",
+      "game_id": "2025_08_TEN_IND",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 162,
+      "timestamp_rows": 157,
+      "iso_utc_rows": 157
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT26GBPIT",
+      "game_id": "2025_08_GB_PIT",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 173,
+      "timestamp_rows": 168,
+      "iso_utc_rows": 168
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT26DALDEN",
+      "game_id": "2025_08_DAL_DEN",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 183,
+      "timestamp_rows": 178,
+      "iso_utc_rows": 178
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT26TBNO",
+      "game_id": "2025_08_TB_NO",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 167,
+      "timestamp_rows": 162,
+      "iso_utc_rows": 162
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT26CLENE",
+      "game_id": "2025_08_CLE_NE",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 162,
+      "timestamp_rows": 157,
+      "iso_utc_rows": 157
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT26CHIBAL",
+      "game_id": "2025_08_CHI_BAL",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 170,
+      "timestamp_rows": 165,
+      "iso_utc_rows": 165
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT26BUFCAR",
+      "game_id": "2025_08_BUF_CAR",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 164,
+      "timestamp_rows": 159,
+      "iso_utc_rows": 159
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT23MINLAC",
+      "game_id": "2025_08_MIN_LAC",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 162,
+      "timestamp_rows": 157,
+      "iso_utc_rows": 157
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT26NYGPHI",
+      "game_id": "2025_08_NYG_PHI",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 154,
+      "timestamp_rows": 149,
+      "iso_utc_rows": 149
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT26MIAATL",
+      "game_id": "2025_08_MIA_ATL",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 158,
+      "timestamp_rows": 153,
+      "iso_utc_rows": 153
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT26SFHOU",
+      "game_id": "2025_08_SF_HOU",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 166,
+      "timestamp_rows": 161,
+      "iso_utc_rows": 161
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT26NYJCIN",
+      "game_id": "2025_08_NYJ_CIN",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 173,
+      "timestamp_rows": 168,
+      "iso_utc_rows": 168
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT20HOUSEA",
+      "game_id": "2025_07_HOU_SEA",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 196,
+      "timestamp_rows": 191,
+      "iso_utc_rows": 191
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT19ATLSF",
+      "game_id": "2025_07_ATL_SF",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 165,
+      "timestamp_rows": 160,
+      "iso_utc_rows": 160
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT20TBDET",
+      "game_id": "2025_07_TB_DET",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 178,
+      "timestamp_rows": 173,
+      "iso_utc_rows": 173
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT19GBARI",
+      "game_id": "2025_07_GB_ARI",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 174,
+      "timestamp_rows": 169,
+      "iso_utc_rows": 169
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT19WASDAL",
+      "game_id": "2025_07_WAS_DAL",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 182,
+      "timestamp_rows": 177,
+      "iso_utc_rows": 177
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT19NOCHI",
+      "game_id": "2025_07_NO_CHI",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 168,
+      "timestamp_rows": 163,
+      "iso_utc_rows": 163
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT19NYGDEN",
+      "game_id": "2025_07_NYG_DEN",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 209,
+      "timestamp_rows": 204,
+      "iso_utc_rows": 204
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT19INDLAC",
+      "game_id": "2025_07_IND_LAC",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 177,
+      "timestamp_rows": 172,
+      "iso_utc_rows": 172
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT19LVKC",
+      "game_id": "2025_07_LV_KC",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 148,
+      "timestamp_rows": 143,
+      "iso_utc_rows": 143
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT19CARNYJ",
+      "game_id": "2025_07_CAR_NYJ",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 174,
+      "timestamp_rows": 169,
+      "iso_utc_rows": 169
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT19MIACLE",
+      "game_id": "2025_07_MIA_CLE",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 158,
+      "timestamp_rows": 153,
+      "iso_utc_rows": 153
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT19PHIMIN",
+      "game_id": "2025_07_PHI_MIN",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 161,
+      "timestamp_rows": 156,
+      "iso_utc_rows": 156
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT19NETEN",
+      "game_id": "2025_07_NE_TEN",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 154,
+      "timestamp_rows": 149,
+      "iso_utc_rows": 149
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT16PITCIN",
+      "game_id": "2025_07_PIT_CIN",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 182,
+      "timestamp_rows": 177,
+      "iso_utc_rows": 177
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT19LAJAC",
+      "game_id": "2025_07_LA_JAX",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 188,
+      "timestamp_rows": 183,
+      "iso_utc_rows": 183
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT13CHIWAS",
+      "game_id": "2025_06_CHI_WAS",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 170,
+      "timestamp_rows": 165,
+      "iso_utc_rows": 165
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT13BUFATL",
+      "game_id": "2025_06_BUF_ATL",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 168,
+      "timestamp_rows": 163,
+      "iso_utc_rows": 163
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT12DETKC",
+      "game_id": "2025_06_DET_KC",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 154,
+      "timestamp_rows": 149,
+      "iso_utc_rows": 149
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT12CINGB",
+      "game_id": "2025_06_CIN_GB",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 167,
+      "timestamp_rows": 162,
+      "iso_utc_rows": 162
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT12SFTB",
+      "game_id": "2025_06_SF_TB",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 166,
+      "timestamp_rows": 161,
+      "iso_utc_rows": 161
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT12TENLV",
+      "game_id": "2025_06_TEN_LV",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 163,
+      "timestamp_rows": 158,
+      "iso_utc_rows": 158
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT12DALCAR",
+      "game_id": "2025_06_DAL_CAR",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 170,
+      "timestamp_rows": 165,
+      "iso_utc_rows": 165
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT12LACMIA",
+      "game_id": "2025_06_LAC_MIA",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 173,
+      "timestamp_rows": 168,
+      "iso_utc_rows": 168
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT12SEAJAC",
+      "game_id": "2025_06_SEA_JAX",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 175,
+      "timestamp_rows": 170,
+      "iso_utc_rows": 170
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT12CLEPIT",
+      "game_id": "2025_06_CLE_PIT",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 186,
+      "timestamp_rows": 181,
+      "iso_utc_rows": 181
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT12LABAL",
+      "game_id": "2025_06_LA_BAL",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 166,
+      "timestamp_rows": 161,
+      "iso_utc_rows": 161
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT12NENO",
+      "game_id": "2025_06_NE_NO",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 158,
+      "timestamp_rows": 153,
+      "iso_utc_rows": 153
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT12ARIIND",
+      "game_id": "2025_06_ARI_IND",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 176,
+      "timestamp_rows": 171,
+      "iso_utc_rows": 171
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT12DENNYJ",
+      "game_id": "2025_06_DEN_NYJ",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 164,
+      "timestamp_rows": 159,
+      "iso_utc_rows": 159
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT09PHINYG",
+      "game_id": "2025_06_PHI_NYG",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 167,
+      "timestamp_rows": 162,
+      "iso_utc_rows": 162
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT06KCJAC",
+      "game_id": "2025_05_KC_JAX",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 164,
+      "timestamp_rows": 159,
+      "iso_utc_rows": 159
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT05NEBUF",
+      "game_id": "2025_05_NE_BUF",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 172,
+      "timestamp_rows": 167,
+      "iso_utc_rows": 167
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT05DETCIN",
+      "game_id": "2025_05_DET_CIN",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 166,
+      "timestamp_rows": 161,
+      "iso_utc_rows": 161
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT05WASLAC",
+      "game_id": "2025_05_WAS_LAC",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 171,
+      "timestamp_rows": 166,
+      "iso_utc_rows": 166
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT05TENARI",
+      "game_id": "2025_05_TEN_ARI",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 180,
+      "timestamp_rows": 175,
+      "iso_utc_rows": 175
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT05TBSEA",
+      "game_id": "2025_05_TB_SEA",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 162,
+      "timestamp_rows": 157,
+      "iso_utc_rows": 157
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT05MIACAR",
+      "game_id": "2025_05_MIA_CAR",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 172,
+      "timestamp_rows": 167,
+      "iso_utc_rows": 167
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT05LVIND",
+      "game_id": "2025_05_LV_IND",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 165,
+      "timestamp_rows": 160,
+      "iso_utc_rows": 160
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT05NYGNO",
+      "game_id": "2025_05_NYG_NO",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 184,
+      "timestamp_rows": 179,
+      "iso_utc_rows": 179
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT05HOUBAL",
+      "game_id": "2025_05_HOU_BAL",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 153,
+      "timestamp_rows": 148,
+      "iso_utc_rows": 148
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT05DENPHI",
+      "game_id": "2025_05_DEN_PHI",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 186,
+      "timestamp_rows": 181,
+      "iso_utc_rows": 181
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT05DALNYJ",
+      "game_id": "2025_05_DAL_NYJ",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 192,
+      "timestamp_rows": 187,
+      "iso_utc_rows": 187
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT05MINCLE",
+      "game_id": "2025_05_MIN_CLE",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 182,
+      "timestamp_rows": 177,
+      "iso_utc_rows": 177
+    },
+    {
+      "event_ticker": "KXNFLGAME-25OCT02SFLA",
+      "game_id": "2025_05_SF_LA",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 205,
+      "timestamp_rows": 199,
+      "iso_utc_rows": 199
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP29CINDEN",
+      "game_id": "2025_04_CIN_DEN",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 169,
+      "timestamp_rows": 164,
+      "iso_utc_rows": 164
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP29NYJMIA",
+      "game_id": "2025_04_NYJ_MIA",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 165,
+      "timestamp_rows": 160,
+      "iso_utc_rows": 160
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP28GBDAL",
+      "game_id": "2025_04_GB_DAL",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 211,
+      "timestamp_rows": 205,
+      "iso_utc_rows": 205
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP28BALKC",
+      "game_id": "2025_04_BAL_KC",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 168,
+      "timestamp_rows": 163,
+      "iso_utc_rows": 163
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP28CHILV",
+      "game_id": "2025_04_CHI_LV",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 163,
+      "timestamp_rows": 158,
+      "iso_utc_rows": 158
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP28INDLA",
+      "game_id": "2025_04_IND_LA",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 178,
+      "timestamp_rows": 173,
+      "iso_utc_rows": 173
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP28JACSF",
+      "game_id": "2025_04_JAX_SF",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 177,
+      "timestamp_rows": 172,
+      "iso_utc_rows": 172
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP28LACNYG",
+      "game_id": "2025_04_LAC_NYG",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 181,
+      "timestamp_rows": 176,
+      "iso_utc_rows": 176
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP28CARNE",
+      "game_id": "2025_04_CAR_NE",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 159,
+      "timestamp_rows": 154,
+      "iso_utc_rows": 154
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP28PHITB",
+      "game_id": "2025_04_PHI_TB",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 179,
+      "timestamp_rows": 174,
+      "iso_utc_rows": 174
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP28WASATL",
+      "game_id": "2025_04_WAS_ATL",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 166,
+      "timestamp_rows": 161,
+      "iso_utc_rows": 161
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP28CLEDET",
+      "game_id": "2025_04_CLE_DET",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 171,
+      "timestamp_rows": 166,
+      "iso_utc_rows": 166
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP28TENHOU",
+      "game_id": "2025_04_TEN_HOU",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 153,
+      "timestamp_rows": 148,
+      "iso_utc_rows": 148
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP28NOBUF",
+      "game_id": "2025_04_NO_BUF",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 170,
+      "timestamp_rows": 165,
+      "iso_utc_rows": 165
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP28MINPIT",
+      "game_id": "2025_04_MIN_PIT",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 172,
+      "timestamp_rows": 167,
+      "iso_utc_rows": 167
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP25SEAARI",
+      "game_id": "2025_04_SEA_ARI",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 179,
+      "timestamp_rows": 174,
+      "iso_utc_rows": 174
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP22DETBAL",
+      "game_id": "2025_03_DET_BAL",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 172,
+      "timestamp_rows": 167,
+      "iso_utc_rows": 167
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP21KCNYG",
+      "game_id": "2025_03_KC_NYG",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 176,
+      "timestamp_rows": 171,
+      "iso_utc_rows": 171
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP21DALCHI",
+      "game_id": "2025_03_DAL_CHI",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 168,
+      "timestamp_rows": 163,
+      "iso_utc_rows": 163
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP21ARISF",
+      "game_id": "2025_03_ARI_SF",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 171,
+      "timestamp_rows": 166,
+      "iso_utc_rows": 166
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP21NOSEA",
+      "game_id": "2025_03_NO_SEA",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 178,
+      "timestamp_rows": 173,
+      "iso_utc_rows": 173
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP21DENLAC",
+      "game_id": "2025_03_DEN_LAC",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 182,
+      "timestamp_rows": 177,
+      "iso_utc_rows": 177
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP21GBCLE",
+      "game_id": "2025_03_GB_CLE",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 176,
+      "timestamp_rows": 171,
+      "iso_utc_rows": 171
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP21HOUJAC",
+      "game_id": "2025_03_HOU_JAX",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 177,
+      "timestamp_rows": 172,
+      "iso_utc_rows": 172
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP21CINMIN",
+      "game_id": "2025_03_CIN_MIN",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 165,
+      "timestamp_rows": 160,
+      "iso_utc_rows": 160
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP21ATLCAR",
+      "game_id": "2025_03_ATL_CAR",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 160,
+      "timestamp_rows": 155,
+      "iso_utc_rows": 155
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP21LAPHI",
+      "game_id": "2025_03_LA_PHI",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 172,
+      "timestamp_rows": 167,
+      "iso_utc_rows": 167
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP21LVWAS",
+      "game_id": "2025_03_LV_WAS",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 171,
+      "timestamp_rows": 166,
+      "iso_utc_rows": 166
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP21NYJTB",
+      "game_id": "2025_03_NYJ_TB",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 191,
+      "timestamp_rows": 186,
+      "iso_utc_rows": 186
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP21PITNE",
+      "game_id": "2025_03_PIT_NE",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 158,
+      "timestamp_rows": 153,
+      "iso_utc_rows": 153
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP21INDTEN",
+      "game_id": "2025_03_IND_TEN",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 167,
+      "timestamp_rows": 162,
+      "iso_utc_rows": 162
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP18MIABUF",
+      "game_id": "2025_03_MIA_BUF",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 162,
+      "timestamp_rows": 157,
+      "iso_utc_rows": 157
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP15LACLV",
+      "game_id": "2025_02_LAC_LV",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 163,
+      "timestamp_rows": 158,
+      "iso_utc_rows": 158
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP15TBHOU",
+      "game_id": "2025_02_TB_HOU",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 167,
+      "timestamp_rows": 162,
+      "iso_utc_rows": 162
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP14ATLMIN",
+      "game_id": "2025_02_ATL_MIN",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 159,
+      "timestamp_rows": 154,
+      "iso_utc_rows": 154
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP14PHIKC",
+      "game_id": "2025_02_PHI_KC",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 163,
+      "timestamp_rows": 158,
+      "iso_utc_rows": 158
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP14DENIND",
+      "game_id": "2025_02_DEN_IND",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 171,
+      "timestamp_rows": 166,
+      "iso_utc_rows": 166
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP14CARARI",
+      "game_id": "2025_02_CAR_ARI",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 179,
+      "timestamp_rows": 174,
+      "iso_utc_rows": 174
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP14JACCIN",
+      "game_id": "2025_02_JAX_CIN",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 180,
+      "timestamp_rows": 175,
+      "iso_utc_rows": 175
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP14NEMIA",
+      "game_id": "2025_02_NE_MIA",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 167,
+      "timestamp_rows": 162,
+      "iso_utc_rows": 162
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP14SFNO",
+      "game_id": "2025_02_SF_NO",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 183,
+      "timestamp_rows": 178,
+      "iso_utc_rows": 178
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP14CLEBAL",
+      "game_id": "2025_02_CLE_BAL",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 178,
+      "timestamp_rows": 173,
+      "iso_utc_rows": 173
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP14NYGDAL",
+      "game_id": "2025_02_NYG_DAL",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 221,
+      "timestamp_rows": 215,
+      "iso_utc_rows": 215
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP14CHIDET",
+      "game_id": "2025_02_CHI_DET",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 170,
+      "timestamp_rows": 165,
+      "iso_utc_rows": 165
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP14BUFNYJ",
+      "game_id": "2025_02_BUF_NYJ",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 164,
+      "timestamp_rows": 159,
+      "iso_utc_rows": 159
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP14SEAPIT",
+      "game_id": "2025_02_SEA_PIT",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 166,
+      "timestamp_rows": 161,
+      "iso_utc_rows": 161
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP14LATEN",
+      "game_id": "2025_02_LA_TEN",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 179,
+      "timestamp_rows": 174,
+      "iso_utc_rows": 174
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP11WASGB",
+      "game_id": "2025_02_WAS_GB",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 179,
+      "timestamp_rows": 174,
+      "iso_utc_rows": 174
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP08MINCHI",
+      "game_id": "2025_01_MIN_CHI",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 176,
+      "timestamp_rows": 171,
+      "iso_utc_rows": 171
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP07BALBUF",
+      "game_id": "2025_01_BAL_BUF",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 191,
+      "timestamp_rows": 186,
+      "iso_utc_rows": 186
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP07HOULA",
+      "game_id": "2025_01_HOU_LA",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 160,
+      "timestamp_rows": 155,
+      "iso_utc_rows": 155
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP07DETGB",
+      "game_id": "2025_01_DET_GB",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 150,
+      "timestamp_rows": 145,
+      "iso_utc_rows": 145
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP07TENDEN",
+      "game_id": "2025_01_TEN_DEN",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 180,
+      "timestamp_rows": 175,
+      "iso_utc_rows": 175
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP07SFSEA",
+      "game_id": "2025_01_SF_SEA",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 166,
+      "timestamp_rows": 161,
+      "iso_utc_rows": 161
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP07LVNE",
+      "game_id": "2025_01_LV_NE",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 184,
+      "timestamp_rows": 179,
+      "iso_utc_rows": 179
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP07CINCLE",
+      "game_id": "2025_01_CIN_CLE",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 170,
+      "timestamp_rows": 165,
+      "iso_utc_rows": 165
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP07ARINO",
+      "game_id": "2025_01_ARI_NO",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 182,
+      "timestamp_rows": 177,
+      "iso_utc_rows": 177
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP07NYGWAS",
+      "game_id": "2025_01_NYG_WAS",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 179,
+      "timestamp_rows": 174,
+      "iso_utc_rows": 174
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP07CARJAC",
+      "game_id": "2025_01_CAR_JAX",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 171,
+      "timestamp_rows": 164,
+      "iso_utc_rows": 164
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP07MIAIND",
+      "game_id": "2025_01_MIA_IND",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 152,
+      "timestamp_rows": 147,
+      "iso_utc_rows": 147
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP07PITNYJ",
+      "game_id": "2025_01_PIT_NYJ",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 167,
+      "timestamp_rows": 162,
+      "iso_utc_rows": 162
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP07TBATL",
+      "game_id": "2025_01_TB_ATL",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 178,
+      "timestamp_rows": 173,
+      "iso_utc_rows": 173
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP05KCLAC",
+      "game_id": "2025_01_KC_LAC",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 169,
+      "timestamp_rows": 164,
+      "iso_utc_rows": 164
+    },
+    {
+      "event_ticker": "KXNFLGAME-25SEP04DALPHI",
+      "game_id": "2025_01_DAL_PHI",
+      "season": "2025",
+      "game_type": "REG",
+      "rows": 163,
+      "timestamp_rows": 156,
+      "iso_utc_rows": 156
+    }
+  ]
+}
