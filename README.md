@@ -1,5 +1,9 @@
 # MLB In-Game Win Probability vs. Kalshi
 
+
+https://drive.google.com/drive/u/0/folders/1qFKVdHoFIpQGWxynndH0BruPZODYs43z 
+drive link
+
 Stochastic-modeling project for Little, Lajoie, and Shi. We are pursuing **baseball**: construct an absorbing Markov-chain model of MLB game states, then compare its in-game win probabilities with historical Kalshi market prices.
 
 The main questions concern **forecast accuracy, calibration, and differences across game situations**. Latency arbitrage is an optional exploratory finding, not the primary objective. A profitable trading strategy is not required. Read [PROJECT_DIRECTION.md](PROJECT_DIRECTION.md) for the research question, modeling choices, analysis plan, and proposal-ready wording.
